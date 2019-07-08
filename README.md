@@ -5,10 +5,7 @@
 ### Author: Jeremy Lee
 
 ### Links and Resources
-* [submission PR](http://xyz.com)
-
-
-
+* [submission PR](https://github.com/jeremy-401-advanced-javascript/Lab05/pull/1)
 
 ### Setup
 #### `.env` requirements
