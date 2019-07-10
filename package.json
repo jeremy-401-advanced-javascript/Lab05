@@ -1,17 +1,29 @@
 {
-  "name": "lab05",
+  "name": "models",
   "version": "1.0.0",
   "description": "## Project Name",
-  "main": "index.js",
+  "main": "players-schema.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --verbose",
+    "test-watch": "jest --watchAll --verbose"
   },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "keywords": [],
+  "author": "Jereny Lee",
+  "license": "MIT",
+  "dependencies": {
+    "jest": "^24.8.0",
+    "mongodb-memory-server": "^5.1.5",
+    "mongoose": "^5.6.1",
+    "supertest": "^4.0.2"
+  },
+  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jeremy-401-advanced-javascript/Lab05.git"
   },
-  "author": "Jeremy Lee",
-  "license": "MIT ",
   "bugs": {
     "url": "https://github.com/jeremy-401-advanced-javascript/Lab05/issues"
   },
